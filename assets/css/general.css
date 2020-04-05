@@ -1,0 +1,132 @@
+body {
+    background-image: url("../img/bg.jpg");
+    background-color: #DDDD;
+    background-blend-mode: overlay;
+    padding-top: 50px;
+}
+
+.modal-win {
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, .5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-menu {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    align-items: center;
+}
+
+.top-menu-button {
+    padding: 0 10px;
+    height: 100%;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    border: 0 solid #000;
+    letter-spacing: 0px;
+}
+
+.round-btn {
+    height: 25px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 3px solid white;
+    padding: 0 10px;
+}
+
+.selected {
+    background-color: #00A;
+}
+
+.hidden-in-start {
+    display: none;
+}
+
+.block {
+    width: 100%;
+}
+
+.auth-block {
+    width: 150px;
+    padding: 20px 10px;
+    background-color: #EE9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.auth-input {
+    width: 95%;
+    border: 0 solid #000;
+    border-radius: 2px;
+    background-color: #D91;
+    margin-top: 10px;
+    height: 25px;
+    text-align: center;
+}
+
+.auth-button {
+    margin-top: 10px;
+    width: 95%;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: 0 solid #000;
+}
+
+.article-author {
+    color: grey;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.article-text {
+    width: 50%;
+    min-height: 100px;
+    overflow-y: scroll;
+    font-size: 18px;
+}
+
+.article-video {
+    width: 100%;
+    height: auto;
+}
+
+.article-image {
+    width: 100%;
+    height: auto;
+}
+
+.article-block {
+    margin-bottom: 50px;
+    margin-top: 30px;
+    width: 100%;
+    background-color: white;
+}
+
+.article-block-main {
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+}
+
+.article-block-media {
+    width: 50%;
+}

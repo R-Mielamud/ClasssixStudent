@@ -1,0 +1,69 @@
+.semester-marker {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: orange;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.diary-table {
+    display: flex;
+    width: 90%;
+    overflow-y: visible;
+}
+
+.diary-table-subjects-sidebar {
+    width: 20%;
+    transform: translateY(110.5px);
+}
+
+.diary-table-body {
+    display: flex;
+    width: 80%;
+    overflow-x: scroll;
+    overflow-y: visible;
+}
+
+.month-marker {
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    text-align: center;
+    color: #7F7;
+}
+
+.diary-table-month-body {
+    display: flex;
+}
+
+.diary-table-gap, .diary-table-subject-gap {
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 30px;
+    font-size: 10;
+    font-weight: bold;
+}
+
+.diary-table-gap {
+    width: 40px;
+}
+
+.diary-table-subject-gap {
+    width: 100%;
+}
+
+.diary-table-number-gap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 40px;
+    height: 30px;
+    font-size: 10;
+    font-weight: bold;
+}

@@ -1,0 +1,33 @@
+{
+    "name": "classsix-student",
+    "app-name": "Class Six Student",
+    "package-name": "rlclasssix",
+    "project-type": "webview",
+    "version": "1.0.0",
+    "description": "",
+    "icon": "./assets/icon/icon.png",
+    "main": "index.js",
+    "dist-path": "./dist",
+    "author": "Roman Melamud",
+    "license": "ISC",
+    "permission": [
+        "android.permission.INTERNET",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "androidjs b",
+        "buildf": "androidjs b -f"
+    },
+    "dependencies": {
+        "androidjs": "^2.0.4",
+        "md5": "^2.2.1"
+    },
+    "theme": {
+        "fullScreen": false,
+        "colorAccent": "#FF0000",
+        "colorPrimary": "#00FF00",
+        "colorPrimaryDark": "#FFFFFF"
+    }
+}

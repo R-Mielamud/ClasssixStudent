@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="../assets/androidjs.js"></script>
+        <link rel="stylesheet" href="../assets/css/general.css">
+        <link rel="stylesheet" href="../assets/css/diary.css">
+    </head>
+
+    <body>
+        <div id="modalWin" class="modal-win">
+            <div class="auth-block block" id="auth">
+                <input type="hidden" id="loggedIn" value="0">
+                <input id="username" class="auth-input" placeholder="Логін">
+                <input type="password" id="password" class="auth-input" placeholder="Пароль">
+                <button class="auth-button" id="authorize">Увійти</button>
+                <button class="auth-button" id="cancelAuth">Скасувати</button>
+            </div>
+        </div>
+
+        <header>
+            <div class="top-menu">
+                <button class="top-menu-button selected" id="toMain">Головна</button>
+                <button class="top-menu-button hidden-in-start" id="toDiary">Щоденник</button>
+                <button class="top-menu-button round-btn" id="toAuth">Увійти</button>
+                <button class="top-menu-button round-btn hidden-in-start" id="toUnreg">Вийти</button>
+            </div>
+        </header>
+
+        <main>
+            <div class="news-block block" id="news">
+                <h1 class="semester-marker">Де нас знайти?</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m8!1m3!1d2199.1001833370083!2d30.7294758!3d46.4902476!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d46.490027999999995!2d30.729494!5e1!3m2!1sru!2sua!4v1586018459355!5m2!1sru!2sua" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+
+            <div class="diary-block block hidden-in-start" id="diary"></div>
+        </main>
+
+        <footer>
+            <script src="../assets/js/articles.js"></script>
+            <script src="../assets/js/auth.js"></script>
+            <script src="../assets/js/diary.js"></script>
+            <script src="../assets/js/ratings.js"></script>
+        </footer>
+    </body>
+</html>
