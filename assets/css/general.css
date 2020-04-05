@@ -2,6 +2,7 @@ body {
     background-image: url("../img/bg.jpg");
     background-color: #DDDD;
     background-blend-mode: overlay;
+    background-attachment: fixed;
     padding-top: 50px;
 }
 
